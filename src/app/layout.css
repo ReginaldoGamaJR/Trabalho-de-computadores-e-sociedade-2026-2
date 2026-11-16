@@ -1,0 +1,112 @@
+.topo {
+  background: var(--cor-superficie);
+  border-bottom: 1px solid var(--cor-borda);
+}
+
+.topo__conteudo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--esp-2) var(--esp-5);
+  padding-top: var(--esp-3);
+  padding-bottom: var(--esp-3);
+}
+
+.topo__marca {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--esp-3);
+  color: var(--cor-texto);
+  text-decoration: none;
+}
+
+.topo__marca > span:last-child {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.topo__simbolo {
+  width: 36px;
+  height: 36px;
+  border-radius: 9px;
+  background:
+    radial-gradient(circle at 34% 64%, #fff 0 4px, transparent 5px),
+    radial-gradient(circle at 66% 34%, #fff 0 3px, transparent 4px), var(--cor-primaria);
+}
+
+.topo__nome {
+  font-weight: 800;
+  font-size: var(--fs-md);
+}
+
+.topo__sub {
+  font-size: var(--fs-xs);
+  color: var(--cor-texto-suave);
+}
+
+.topo__nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--esp-1);
+  margin: 0 calc(var(--esp-2) * -1);
+}
+
+.topo__nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 var(--esp-2);
+  color: var(--cor-texto);
+  text-decoration: none;
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  border-bottom: 3px solid transparent;
+}
+
+.topo__nav a:hover {
+  color: var(--cor-primaria);
+}
+
+.topo__nav a[aria-current='page'] {
+  color: var(--cor-primaria);
+  border-bottom-color: var(--cor-primaria);
+}
+
+main:focus {
+  outline: none;
+}
+
+.rodape {
+  background: var(--cor-texto);
+  color: #e8ecea;
+  font-size: var(--fs-sm);
+}
+
+.rodape__conteudo {
+  padding-top: var(--esp-5);
+  padding-bottom: var(--esp-5);
+  display: grid;
+  gap: var(--esp-3);
+}
+
+.rodape__nome {
+  font-weight: 700;
+  color: #fff;
+}
+
+.rodape__meta {
+  color: #b9c3c0;
+  font-size: var(--fs-xs);
+  margin: 0;
+}
+
+.rodape__parceiros {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--esp-4);
+}

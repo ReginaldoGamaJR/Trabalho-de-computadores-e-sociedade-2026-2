@@ -1,0 +1,60 @@
+/* Tokens de design. Cores verificadas para contraste WCAG AA sobre --cor-superficie. */
+:root {
+  color-scheme: light;
+
+  /* Superfícies e texto */
+  --cor-fundo: #f6f5f1;
+  --cor-superficie: #ffffff;
+  --cor-superficie-2: #eef0ec;
+  --cor-texto: #1b2425;
+  --cor-texto-suave: #4a5759;
+  --cor-borda: #d5d9d3;
+
+  /* Marca (provisória, configurável) */
+  --cor-primaria: #0f5c63;
+  --cor-primaria-hover: #0b484e;
+  --cor-primaria-contraste: #ffffff;
+  --cor-acento: #b4441b;
+  --cor-foco: #1a4fd6;
+
+  /* Estados */
+  --cor-aviso-fundo: #fff3c4;
+  --cor-aviso-texto: #4d3a00;
+  --cor-aviso-borda: #d9a900;
+  --cor-erro-fundo: #fdecea;
+  --cor-erro-texto: #8a1c12;
+
+  /* Escala sequencial do mapa (1 matiz, claro → escuro) */
+  --mapa-1: #d6ece8;
+  --mapa-2: #a2d3cb;
+  --mapa-3: #63b2a8;
+  --mapa-4: #2b8a84;
+  --mapa-5: #0f5c63;
+  --mapa-vazio: #e9e8e2;
+  --mapa-hachura: #7d8481;
+  --mapa-hachura-fundo: #f1f1ec;
+  --mapa-limite: #ffffff;
+  --mapa-limite-forte: #1b2425;
+
+  /* Tipografia */
+  --fonte: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --fs-xs: 0.8125rem;
+  --fs-sm: 0.875rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.25rem;
+  --fs-xl: 1.625rem;
+  --fs-2xl: 2.125rem;
+
+  /* Espaçamento e forma */
+  --esp-1: 0.25rem;
+  --esp-2: 0.5rem;
+  --esp-3: 0.75rem;
+  --esp-4: 1rem;
+  --esp-5: 1.5rem;
+  --esp-6: 2rem;
+  --esp-7: 3rem;
+  --raio: 10px;
+  --raio-sm: 6px;
+  --sombra: 0 1px 2px rgb(0 0 0 / 0.06), 0 2px 8px rgb(0 0 0 / 0.04);
+  --largura-max: 1280px;
+}

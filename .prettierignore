@@ -1,0 +1,4 @@
+dist
+public/geo
+src/data/adapters/mock/territorio.gerado.json
+package-lock.json

@@ -1,0 +1,9 @@
+node_modules
+dist
+*.local
+.env.local
+.env.*.local
+.vercel
+coverage
+# Documentos internos do projeto (contêm nomes e links internos): não versionar
+docs/internos/
